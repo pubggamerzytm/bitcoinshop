@@ -2,11 +2,11 @@ const Telegraf = require('telegraf');
 const Extra = require('telegraf/extra');
 var randomItem = require('random-item');
 const Markup = require('telegraf/markup');
-const bot = new Telegraf("780233478:AAFKjS9K485kmS1d01o4aipVN2P8f8Mwuxg");
+const bot = new Telegraf("1950922384:AAGrMBHK1X1i6fqeps7ZiIseoGwho7LK1qE");
 const Scene = require('telegraf/scenes/base')
 const session = require('telegraf/session')
 const Stage = require('telegraf/stage')
-var admin=411002680
+var admin=1087275226
 const { enter,leave } = Stage
 var rest = require('restler');
 var btc='6de25467-fd8c-57b4-8b9e-3b1b37ddee94'
@@ -59,9 +59,9 @@ var create_payment_json = {
 };
 var con = mysql.createConnection({
     host: "remotemysql.com",
-    user: "z7qIzdsQfO",
-    password: "7gF9HIZYuQ",
-    database:"z7qIzdsQfO"
+    user: "vdem3fxjeJ",
+    password: "tPWbv4voOa",
+    database:"vdem3fxjeJ"
 });
 var rn = require('random-number');
 var options = {
